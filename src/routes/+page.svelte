@@ -13,7 +13,7 @@ This code is in +page.svelte and can be manually coded using HTML or Svelte tags
 -->
 <header class="container-fluid d-flex flex-column align-items-center justify-content-center vh-100 mb-4" style="background-image:url('cover.jpg');background-size:cover;background-position:center;">
   <h1 class="text-white text-center display-1">Tubal ligation</h1>
-  <p class="text-white fw-light text-center">How doctors in Pakistan strip women of their basic right to get a tubal ligation</p>
+  <p class="text-white fw-light text-center">How doctors in Pakistan strip women of their basic right to get a tubal ligation.</p>
 </header>
 
 
