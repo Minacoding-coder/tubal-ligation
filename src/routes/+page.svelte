@@ -12,8 +12,11 @@ Hard-code custom code that should appear BEFORE Google Doc here.
 This code is in +page.svelte and can be manually coded using HTML or Svelte tags.
 -->
 <header class="container-fluid d-flex flex-column align-items-end justify-content-center vh-100 mb-4" style="background-image:url('cover.jpg');background-size:cover;background-position:center;padding-right:5%;">
-  <h1 class="text-white text-center display-1">Tubal ligation</h1>
-  <p class="text-white fw-light text-center">How doctors in Pakistan strip women of their basic right to get a tubal ligation.</p>
+  <div class="col-6 text-end pe-4">
+    <h1 class="text-dark display-3" style="text-shadow: 2px 2px 10px rgba(255,255,255,0.9);">Doctors routinely deny Pakistani women their reproductive rights</h1>
+    <p class="text-dark fw-light text-center fs-4" style="text-shadow: 2px 2px 10px rgba(255,255,255,0.9);">By Minahil Arif</p>
+    <p class="text-dark fw-light text-center fs-6" style="text-shadow: 2px 2px 10px rgba(255,255,255,0.9);">May 5, 2026</p>
+  </div>
 </header>
 
 
@@ -29,5 +32,5 @@ This code is in +page.svelte and can be manually coded using HTML or Svelte tags
 
 <!-- Hard-code any custom code that should appear AFTER Google Doc below here. -->
 <footer class="container-fluid bg-dark text-white p-5">
-  <p class="text-center">See template on <a class="text-white" href="https://github.com/jrue/multimedia-template-2026" target="_blank">Github</a></p>
+  <p class="text-center">UC Berkeley 2026</p>
 </footer>
